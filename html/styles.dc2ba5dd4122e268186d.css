@@ -538,6 +538,47 @@
   height: 250px;
   position: absolute;
   background-color: red;
+}@media screen and (max-width: 750px) {
+  #navbar {
+    width: 100%;
+    background-color: #03173d;
+    color: #fff;
+  }
+
+  .cdk-overlay-pane {
+    margin: 0 !important;
+  }
+
+  #logo {
+    display: flex;
+  }
+
+  #menumovil {
+    display: flex;
+  }
+
+  #contenedor {
+    display: none;
+  }
+  #contenedor ul li span {
+    padding: 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  #contenedor ul li span b {
+    display: none;
+  }
+
+  #main {
+    margin: 0;
+  }
+  #main #section {
+    width: 100%;
+  }
+
+  .right_panel {
+    display: none;
+  }
 }
 /*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
 
